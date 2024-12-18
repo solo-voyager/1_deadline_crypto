@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Trading Login</title>
+    <link rel="stylesheet" href="fonts.css">
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #0f0f0f;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
+
+        /* Left section */
+        .left {
+            flex: 1;
+            background: linear-gradient(135deg, #6b11af, #2c0848);
+            background-image: url(images/back_fon2.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .left h1 {
+            font-size: 3rem;
+            line-height: 1.5;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .left h1 span {
+            color: #a360e5;
+        }
+
+        /* Right section */
+        .right {
+            width: 400px;
+            background: #141414;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+
+        .right h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #333;
+            border-radius: 5px;
+            background: #222;
+            color: white;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #a360e5;
+        }
+
+        .form-actions {
+            width: 100%;
+            text-align: center;
+        }
+
+        .form-actions button {
+            background: #a360e5;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .form-actions button:hover {
+            background: #8e1191;
+        }
+
+        .links {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        .links a {
+            color: #a360e5;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>Crypto trading with <span>bots</span> and <span>smart seals</span></h1>
+        </div>
+        <div class="right">
+            <h2>Sign In</h2>
+            <form>
+                <div class="form-group">
+                    <label for="email">Login or Email</label>
+                    <input type="email" id="email" placeholder="elonmask@">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Sign In</button>
+                </div>
+                <div class="links">
+                    <p><a href="#">Forgot password?</a></p>
+                    <p>Still not have an account? <a href="#">Create an account</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

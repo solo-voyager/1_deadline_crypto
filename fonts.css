@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstBlackRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstLightRegular.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstBlackRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstBlackRegular.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstSemiBoldRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstSemiBoldRegular.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstThinRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstThinRegular.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstBoldRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstBoldRegular.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "FONTSPRING DEMO - Nekst";
+    src:
+        url("fonts/FONTSPRINGDEMO-NekstMediumRegular.woff2") format("woff2"),
+        url("fonts/FONTSPRINGDEMO-NekstMediumRegular.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}

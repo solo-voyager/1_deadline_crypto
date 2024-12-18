@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General Styling */
+body {
+    max-width: 1600px;
+    height: 11596px;   
+    font-family: Arial, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    overflow-x: hidden;
+}
+.container {
+    background-image: url(images/back_fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25xp;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background: transparent;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu a {
+    margin: 0 15px;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+    color: #ccc;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.lang-switch {
+    font-size: 0.9rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero .content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.hero h1 .highlight {
+    color: #a360e5;
+}
+
+.btn-signup {
+    background: #6c3dff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.btn-signup:hover {
+    background: #8e54ff;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 20px;
+}
+
+.scroll-down .circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #6c3dff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6c3dff;
+    font-size: 1.5rem;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+/* Exchanges Section */
+.exchanges {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.exchanges p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.exchange-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.exchange {
+    padding: 10px 20px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.exchange.soon {
+    position: relative;
+}
+
+.exchange.soon span {
+    font-size: 0.7rem;
+    color: #6c3dff;
+    margin-left: 5px;
+}
+
+/* second page */
+/* body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+  
+.numbers {
+    max-width: 1200px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    display: flex;
+}
+  
+.nam-frame {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  
+.logo_2 {
+    font-weight: bold;
+}
+  
+.manage-positions {
+    opacity: 0.8;
+}
+  
+.trading-volume h1 {
+    font-size: 15rem;
+    margin: 0;
+}
+  
+.trading-volume p {
+    font-size: 1.2rem;
+    margin: 10px 0 30px;
+}
+  
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.stat {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+  
+.stat h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+  
+.stat p {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+  
+.timestamp {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+  
+.wave {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 120%;
+    height: 300px;
+    background: linear-gradient(90deg, #6104d7, #21015c);
+    opacity: 0.8;
+    filter: blur(40px);
+    z-index: -1;
+}
+.part23-1{
+    background-image: url("images/23\ 1.png");
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.part23-1 h1{
+    
+}
+.btn-create{
+    background: #6c3dff;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: flex;
+    transition: background 0.3s;
+}
+/* footer part */
+a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+
+.footer {
+    background-color: #21012C; /* Dark purple background */
+    padding: 40px 20px;
+    color: #fff;
+}
+  
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.footer-logo {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.footer-logo img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+  
+.footer-social {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.footer-social p {
+    margin: 5px 0;
+}
+  
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+  
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+  
+.footer-links {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+  
+.footer-links div {
+    text-align: left;
+}
+  
+.footer-links h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+  
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.footer-links li {
+    margin: 5px 0;
+}
+  
+.footer-links a {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+  
+.footer-links a:hover {
+    opacity: 1;
+}
